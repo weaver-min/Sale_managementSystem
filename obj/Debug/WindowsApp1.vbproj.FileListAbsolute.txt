@@ -22,3 +22,4 @@ C:\Users\zawkhant\source\repos\SaleManagement\WindowsApp1\obj\Debug\WindowsApp1.
 C:\Users\zawkhant\source\repos\SaleManagement\WindowsApp1\obj\Debug\WindowsApp1.goods_register.resources
 C:\Users\zawkhant\source\repos\SaleManagement\WindowsApp1\obj\Debug\WindowsApp1.sales_list.resources
 C:\Users\zawkhant\source\repos\SaleManagement\WindowsApp1\obj\Debug\WindowsApp1.sale_register.resources
+C:\Users\zawkhant\source\repos\SaleManagement\WindowsApp1\obj\Debug\WindowsApp1.invoice.resources

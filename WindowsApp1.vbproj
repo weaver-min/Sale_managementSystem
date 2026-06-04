@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{6BCB3A94-B57B-46FF-8811-0C265CE85845}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>WindowsApp1.sale_register</StartupObject>
+    <StartupObject>WindowsApp1.invoice</StartupObject>
     <RootNamespace>WindowsApp1</RootNamespace>
     <AssemblyName>WindowsApp1</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -102,6 +102,12 @@
     <Compile Include="goods_register.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="invoice.Designer.vb">
+      <DependentUpon>invoice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="invoice.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\Application1.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -167,6 +173,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="goods_register.resx">
       <DependentUpon>goods_register.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="invoice.resx">
+      <DependentUpon>invoice.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="sales_list.resx">
       <DependentUpon>sales_list.vb</DependentUpon>
